@@ -1,5 +1,5 @@
 <script>
-  let name = "Distoni";
+  let name = "distoni";
   let profession = "Web and Software Developer";
   let skills = ["HTML", "TypeScript", "Java", "Svelte", "Kotlin", "Node.js"];
   let imageUrl = "https://files.catbox.moe/yn9cgp.png";
@@ -31,6 +31,10 @@
   </section>
 
   <footer>
+    <div class="links">
+      <a href="https://github.com/distoni" target="_blank" class="link">GitHub</a>
+      <a href="https://modrinth.com/user/diston1" target="_blank" class="link">Modrinth</a>
+    </div>
     <p>Made with ❤️ using Svelte</p>
   </footer>
 </main>
@@ -126,5 +130,20 @@
     text-align: center;
     margin-top: 40px;
     font-size: 1rem;
+  }
+
+  .links {
+    margin-bottom: 10px;
+  }
+
+  .link {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    color: #0077b5;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
   }
 </style>
